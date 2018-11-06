@@ -1,0 +1,48 @@
+{
+  "name": "",
+  "version": "",
+  "description": "",
+  "author": "",
+  "license": "",
+  "engines": {
+    "node": ">=6.13.0"
+  },
+  "scripts": {
+    "start": "webpack -w & nodemon server/index.js",
+    "seed": "node database/seed.js",
+    "test": "jest"
+  },
+  "devDependencies": {
+    "babel-core": "^6.24.0",
+    "babel-loader": "^6.4.1",
+    "babel-preset-env": "^1.2.2",
+    "babel-preset-react": "^6.23.0",
+    "css-loader": "^0.27.3",
+    "eslint-config-hackreactor": "git://github.com/reactorcore/eslint-config-hackreactor",
+    "html-webpack-plugin": "^2.28.0",
+    "jest": "^22.4.2",
+    "style-loader": "^0.16.0",
+    "webpack": "^2.3.1",
+    "webpack-dev-server": "^2.4.2"
+  },
+  "dependencies": {
+    "axios": "^0.16.0",
+    "body-parser": "^1.18.2",
+    "cors": "^2.8.4",
+    "express": "^4.16.2",
+    "moment": "^2.21.0",
+    "mongoose": "^5.0.9",
+    "nodemon": "^1.15.1",
+    "prop-types": "^15.5.4",
+    "react": "^16.2.0",
+    "react-datepicker": "^1.2.2",
+    "react-dates": "^16.3.6",
+    "react-dom": "^16.2.0",
+    "react-icons": "^2.2.7",
+    "react-router": "^4.2.0",
+    "react-router-dom": "^4.2.2",
+    "styled-components": "^3.1.6",
+    "webpack": "^3.11.0",
+    "webpack-dev-server": "^2.11.1"
+  }
+}
